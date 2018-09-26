@@ -7,12 +7,14 @@ import java.util.*;
 
 public class ModernServlet extends HttpServlet {
 
+  @Override
   public void init(ServletConfig config) {
     System.out.println("ModernServlet -- init");
   }
 
-  public void doGet(HttpServletRequest request, 
-    HttpServletResponse response) 
+  @Override
+  public void doGet(HttpServletRequest request,
+                    HttpServletResponse response)
     throws ServletException, IOException {
     
     response.setContentType("text/html");

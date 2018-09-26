@@ -434,6 +434,20 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tomcat/catalina -->
+        <dependency>
+            <groupId>tomcat</groupId>
+            <artifactId>catalina</artifactId>
+            <version>4.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

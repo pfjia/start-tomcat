@@ -1,4 +1,4 @@
-package top.pfjia.core;
+package top.pfjia;
 
 import java.io.File;
 
@@ -29,4 +29,5 @@ public class Const {
     // shutdown command
     public static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
     public static final String SERVLET = "/servlet/";
+    public static final String COOKIE = "cookie";
 }

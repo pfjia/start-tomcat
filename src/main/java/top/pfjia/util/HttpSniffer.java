@@ -53,6 +53,7 @@ public class HttpSniffer extends JFrame {
     send.setText("Send Request");
     send.setBounds(new Rectangle(347, 6, 117, 58));
     send.addActionListener(new java.awt.event.ActionListener() {
+      @Override
       public void actionPerformed(ActionEvent e) {
         send_actionPerformed(e);
       }
@@ -112,7 +113,7 @@ public class HttpSniffer extends JFrame {
             }
             loop = false;
           }
-          Thread.currentThread().sleep(50);
+          Thread.sleep(50);
         }
         response.setText(sb.toString());
         socket.close();
